@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+.box1{
+    transform: translate(50px,50px);
+    transition:4s ;
+    background-color: green;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
+.sidebar h3{
+    position: relative;
+    color: white;
+   text-align: center;
+   font-weight: 900;
+ }
+ h2{
+    color: white;
+    font-size:small;
+ }
+.sidebar a{
+    display: block;
+     position: relative;
+    color: white;
+    font-size: small;
+    font-weight:200;
+    margin: 20px;
+}
+.sidebar ul li a:hover{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    padding: 7px;
+}
+/*------------------------------------*/
+.sidebar{
+    display:block;
+   background-color:black;
+   padding: 15px;
+   width: 20%;
+   height: 100vh;
+   font-weight: 900;
+   border-radius: 5px;
+  
+}

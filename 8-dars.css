@@ -1,0 +1,21 @@
+.a{
+  border-width: 10px;
+  border-color:darkorange ;
+  background-color: blueviolet;
+  border-style: double;
+}
+.b{
+    border-width: 10px;
+    border-color:darkred ;
+    border-style: dashed;
+}
+.c{
+    border-width: 10px;
+    border-color:brown ;
+    border-style:solid;
+}
+.d{
+    border-width: 10px;
+    border-color:yellow ;
+    border-style: outset;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*blog*/
+.card{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 2px;
+    border-radius: 20px;
+}
+.card>img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom:10px;
+}
+.card>h2{
+     font-size: 20px;
+}
+.card>h4{
+    margin: 10px 0px ;
+}
+.card>p{
+    margin-bottom: 10px;
+    color: gray;
+}
+.card>h3{
+    float: left;
+}
+.card>button{
+    float: right;
+}
+.btn1{
+    background: #ffb91d;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
+.btn2{
+    background: #80e7f5;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
+.btn3{
+    background: #aa69a7;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
+.btn4{
+    background: #142cb4;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+}

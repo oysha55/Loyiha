@@ -1,0 +1,42 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+.banner{
+    height: 90vh;
+}
+.navbar{
+    height: 100vh;
+    background-image: url(https://eurobyte.ru/img/articles/chto-takoe-html/image1.jpeg);
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.navbar ul{
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 18px;
+    color: #fff;
+   height: 70px;
+}
+.navbar a{
+   float: right;
+   text-decoration: none;
+   margin: 10px 35px 25px 30px;
+   color: #fff;
+
+  
+}
+.navbar h1 {
+    padding: 18px;
+    color: #fff;
+    float: left;
+    margin: 10px 35px 25px;
+}
+.container>ul>li>a{
+    text-align: center;
+}

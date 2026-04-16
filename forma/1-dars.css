@@ -1,0 +1,96 @@
+/****
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: rgb(55, 184, 55);
+    box-shadow: 0px, 0px, 5px, 10px, red;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.forma{
+    width: 400px;
+    height: 420px;
+    background-color: white;
+    margin: 80px 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px red;
+    
+}
+.forma input{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    width: 90%;
+    color: #333;
+   padding: 7px 10px;
+   margin: 20px;
+}
+textarea{
+    width: 90%;
+    padding: 18px 10px;
+   margin: 20px;
+   margin-top: 3px;
+}
+.forma button{
+    width:90% ;
+    margin: 20px;
+    padding: 5px 10px;
+    margin-top: 3px;
+   background-color: rgb(55, 184, 55);
+   border-style: none;
+   border-radius: 15px;
+   font-weight: 900;
+   color: white;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+}
+****************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(31, 202, 31);
+}
+.forma{
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    margin: 100px 460px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 10px 1px red;
+   transition: 0.1s;
+}
+h2{
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+.forma input{
+    padding: 10px 50px;
+    margin: 10px;
+}
+textarea{
+    width: 62%;
+    margin: 15px 55px;
+   height: 70px;
+}
+.forma button{
+    padding: 10px 120px;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(27, 173, 27);
+    color: white;
+    text-transform: uppercase;
+}
